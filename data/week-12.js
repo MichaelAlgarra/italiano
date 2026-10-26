@@ -7,7 +7,7 @@ window.ITALIANO.weeks[12] = {
     "Use ci to mean there (ci vado, ci sono stato)",
     "Ask for and understand directions",
     "Say where things are with prepositions of place (vicino a, davanti a…)",
-    "Describe your home and neighbourhood",
+    "Describe your home and neighborhood",
     "Pass the A1 checkpoint: 150-word self-introduction + 15-minute all-Italian conversation"
   ],
   spanishNotes: [
@@ -116,7 +116,7 @@ Useful replies: *È lontano?* (Is it far?) *Sono cinque minuti a piedi.* (It's f
 | **di fronte a** | opposite | di fronte **al** bar |
 
 Abito vicino alla stazione, ma lontano dal centro.
-"I live near the station, but far from the centre."
+"I live near the station, but far from the center."
 
 C'è un bar accanto al museo.
 "There's a bar next to the museum."
@@ -127,14 +127,14 @@ La farmacia è qui vicino.
 "The pharmacy is nearby."
 
 Il centro è lontano?
-"Is the centre far?"
+"Is the center far?"
 
 The main trap is that Spanish *cerca **de*** becomes Italian *vicino **a***, not *vicino di*.`,
       vocab: [
-        { it: "vicino a", en: "near (to)", pos: "preposition", ex: "Abito vicino al parco.", exEn: "I live near the park.", note: "*cerca de* → *vicino a*. Also *il vicino* = neighbour" },
+        { it: "vicino a", en: "near (to)", pos: "preposition", ex: "Abito vicino al parco.", exEn: "I live near the park.", note: "*cerca de* → *vicino a*. Also *il vicino* = neighbor" },
         { it: "lontano da", en: "far from", pos: "preposition", ex: "L'aeroporto è lontano dalla città.", exEn: "The airport is far from the city.", note: "Spanish *lejos de*" },
         { it: "davanti a", en: "in front of", pos: "preposition", ex: "Ti aspetto davanti al cinema.", exEn: "I'll wait for you in front of the cinema.", note: "Spanish *delante de*" },
-        { it: "dietro", en: "behind", pos: "preposition", ex: "Il parcheggio è dietro la banca.", exEn: "The car park is behind the bank.", note: "Spanish *detrás de*. Also *dietro a*" },
+        { it: "dietro", en: "behind", pos: "preposition", ex: "Il parcheggio è dietro la banca.", exEn: "The parking lot is behind the bank.", note: "Spanish *detrás de*. Also *dietro a*" },
         { it: "accanto a", en: "next to", pos: "preposition", ex: "Mi siedo accanto a te.", exEn: "I'll sit next to you.", note: "Spanish *al lado de*" },
         { it: "di fronte a", en: "opposite / across from", pos: "preposition", ex: "L'hotel è di fronte alla stazione.", exEn: "The hotel is opposite the station.", note: "Spanish *enfrente de*" }
       ],
@@ -143,7 +143,7 @@ The main trap is that Spanish *cerca **de*** becomes Italian *vicino **a***, not
         { type: "translate", en: "The hotel is far from the center.", it: ["L'albergo è lontano dal centro.", "L'hotel è lontano dal centro."] },
         { type: "fill", prompt: "La farmacia è davanti ___ chiesa.", en: "The pharmacy is in front of the church.", it: ["alla"], hint: "a + la" },
         { type: "translate", en: "There is a bar next to the museum.", it: ["C'è un bar accanto al museo.", "Accanto al museo c'è un bar."] },
-        { type: "fill", prompt: "Il parcheggio è dietro ___ banca.", en: "The car park is behind the bank.", it: ["la", "alla"], hint: "dietro (+ a)" }
+        { type: "fill", prompt: "Il parcheggio è dietro ___ banca.", en: "The parking lot is behind the bank.", it: ["la", "alla"], hint: "dietro (+ a)" }
       ]
     },
     {
@@ -151,7 +151,7 @@ The main trap is that Spanish *cerca **de*** becomes Italian *vicino **a***, not
       notes: `Describe your home with **c'è / ci sono** and prepositions:
 
 Nel mio appartamento ci sono due camere da letto, una cucina e un bagno.
-"In my flat there are two bedrooms, a kitchen and a bathroom."
+"In my apartment there are two bedrooms, a kitchen and a bathroom."
 
 Il divano è nel soggiorno, davanti alla televisione.
 "The sofa is in the living room, in front of the TV."
@@ -167,7 +167,7 @@ Floors use **ordinal numbers** with *a* + article: **al** piano terra (ground fl
 | quinto | 5th |
 
 Abito al terzo piano, senza ascensore!
-"I live on the third floor, with no lift!"
+"I live on the third floor, with no elevator!"
 
 Rooms take **in** with no article in common phrases: *sono in cucina*, *vado in bagno*. With a possessive or description, use the article: *nella mia camera*.
 
@@ -208,12 +208,12 @@ Remember: **la camera** = room. You'll also hear *la stanza* (room) and *la sala
 A model mini-introduction:
 
 Mi chiamo Marco, abito in un quartiere tranquillo vicino al centro. Mi sono trasferito qui l'anno scorso. Il mio appartamento è piccolo ma mi piace molto.
-"My name is Marco, I live in a quiet neighbourhood near the centre. I moved here last year. My flat is small but I really like it."
+"My name is Marco, I live in a quiet neighborhood near the center. I moved here last year. My apartment is small but I really like it."
 
 For the checkpoint, write your own 150-word version, then say it aloud to your tutor without notes.`,
       vocab: [
-        { it: "il quartiere", en: "neighbourhood / district", pos: "noun (m)", ex: "Il mio quartiere è molto vivace.", exEn: "My neighbourhood is very lively.", note: "Spanish *barrio*" },
-        { it: "il vicino di casa", en: "neighbour", pos: "noun (m)", ex: "Il mio vicino di casa è simpatico.", exEn: "My neighbour is nice.", note: "f: *la vicina*. Spanish *vecino*" },
+        { it: "il quartiere", en: "neighborhood / district", pos: "noun (m)", ex: "Il mio quartiere è molto vivace.", exEn: "My neighborhood is very lively.", note: "Spanish *barrio*" },
+        { it: "il vicino di casa", en: "neighbor", pos: "noun (m)", ex: "Il mio vicino di casa è simpatico.", exEn: "My neighbor is nice.", note: "f: *la vicina*. Spanish *vecino*" },
         { it: "l'affitto", en: "rent", pos: "noun (m)", ex: "L'affitto è troppo caro.", exEn: "The rent is too expensive.", note: "*in affitto* = for rent / rented" },
         { it: "trasferirsi", en: "to move (house / city)", pos: "verb (reflexive, -isc-)", ex: "Ci siamo trasferiti a Milano.", exEn: "We moved to Milan.", note: "*mi trasferisco*. Spanish *mudarse*" },
         { it: "tranquillo", en: "quiet / calm", pos: "adjective", ex: "È una zona tranquilla.", exEn: "It's a quiet area.", note: "Also *Tranquillo!* = Don't worry!" },
@@ -221,18 +221,18 @@ For the checkpoint, write your own 150-word version, then say it aloud to your t
       ],
       drills: [
         { type: "translate", en: "Last year I moved to Rome.", it: ["L'anno scorso mi sono trasferito a Roma.", "L'anno scorso mi sono trasferita a Roma.", "Mi sono trasferito a Roma l'anno scorso.", "Mi sono trasferita a Roma l'anno scorso.", "L'anno scorso io mi sono trasferito a Roma.", "L'anno scorso io mi sono trasferita a Roma."] },
-        { type: "fill", prompt: "Il mio quartiere è molto ___.", en: "My neighbourhood is very quiet.", it: ["tranquillo"], hint: "quiet" },
-        { type: "translate", en: "My neighbours are noisy.", it: ["I miei vicini sono rumorosi.", "I miei vicini di casa sono rumorosi.", "Le mie vicine sono rumorose.", "Le mie vicine di casa sono rumorose."] },
+        { type: "fill", prompt: "Il mio quartiere è molto ___.", en: "My neighborhood is very quiet.", it: ["tranquillo"], hint: "quiet" },
+        { type: "translate", en: "My neighbors are noisy.", it: ["I miei vicini sono rumorosi.", "I miei vicini di casa sono rumorosi.", "Le mie vicine sono rumorose.", "Le mie vicine di casa sono rumorose."] },
         { type: "fill", prompt: "L'affitto? ___ pago ogni mese.", en: "The rent? I pay it every month.", it: ["Lo"], hint: "it (m)" },
-        { type: "translate", en: "Do you like your neighbourhood?", it: ["Ti piace il tuo quartiere?", "Le piace il Suo quartiere?", "Le piace il suo quartiere?", "Vi piace il vostro quartiere?"] }
+        { type: "translate", en: "Do you like your neighborhood?", it: ["Ti piace il tuo quartiere?", "Le piace il Suo quartiere?", "Le piace il suo quartiere?", "Vi piace il vostro quartiere?"] }
       ]
     }
   ],
   speaking: [
     "A1 checkpoint: hold a 15-minute conversation entirely in Italian. Introduce yourself, your routine, your family and your home: *Mi chiamo…, abito…, di solito…*",
     "Give your tutor directions from your home to a nearby place: *Esci di casa, vai dritto, poi giri a destra…*",
-    "Describe your neighbourhood: what's nearby, what you like and don't like: *Vicino a casa mia c'è…*",
+    "Describe your neighborhood: what's nearby, what you like and don't like: *Vicino a casa mia c'è…*",
     "Tell what you did last weekend, including where you went (use ci): *Sabato sono andato/a al mercato. Ci vado ogni settimana.*"
   ],
-  writing: "A1 checkpoint: write a 150-word self-introduction covering your name, where you're from, where you live (home and neighbourhood), your job, your family, your daily routine and what you did last weekend."
+  writing: "A1 checkpoint: write a 150-word self-introduction covering your name, where you're from, where you live (home and neighborhood), your job, your family, your daily routine and what you did last weekend."
 };

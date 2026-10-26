@@ -38,7 +38,7 @@ La mia casa è piccola, ma il mio giardino è grande.
 Marco ama la sua macchina. / Anna ama il suo lavoro.
 "Marco loves his car. / Anna loves her job."
 
-With the formal *Lei*, it's often capitalised in writing: *il Suo nome* (your name).
+With the formal *Lei*, it's often capitalized in writing: *il Suo nome* (your name).
 
 **Loro** never changes:
 
@@ -225,7 +225,7 @@ To ask **whose**, use **Di chi è?** / **Di chi sono?** Answer with *È di Marco
         { it: "separato", en: "separated", pos: "adjective", ex: "Mia zia è separata e vive da sola.", exEn: "My aunt is separated and lives alone." },
         { it: "il fidanzato", en: "boyfriend / fiancé", pos: "noun (m)", ex: "Il suo fidanzato è di Torino.", exEn: "Her boyfriend is from Turin.", note: "Used for any serious relationship, not only engagement" },
         { it: "la fidanzata", en: "girlfriend / fiancée", pos: "noun (f)", ex: "Ti presento la mia fidanzata.", exEn: "Let me introduce my girlfriend.", note: "Keeps the article: not a family member (yet!)" },
-        { it: "andare d'accordo", en: "to get along", pos: "expression", ex: "Andiamo d'accordo con i vicini.", exEn: "We get along with the neighbours.", note: "Spanish *llevarse bien*" }
+        { it: "andare d'accordo", en: "to get along", pos: "expression", ex: "Andiamo d'accordo con i vicini.", exEn: "We get along with the neighbors.", note: "Spanish *llevarse bien*" }
       ],
       drills: [
         { type: "translate", en: "Are you married?", it: ["Sei sposato?", "Sei sposata?", "Tu sei sposato?", "Tu sei sposata?", "È sposato?", "È sposata?", "Lei è sposato?", "Lei è sposata?", "Siete sposati?"] },
