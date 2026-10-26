@@ -3,38 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <meta name="theme-color" content="#0b6e4f">
+    <meta name="theme-color" content="#ffffff">
     <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="Italiano">
     <title>Italiano · Daily Study</title>
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'><rect width='1' height='2' fill='%23009246'/><rect x='1' width='1' height='2' fill='%23fff'/><rect x='2' width='1' height='2' fill='%23ce2b37'/></svg>">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'><stop offset='0' stop-color='%23635bff'/><stop offset='1' stop-color='%23ff7a59'/></linearGradient></defs><rect width='32' height='32' rx='8' fill='url(%23g)'/><text x='16' y='22' font-family='Helvetica,Arial' font-weight='700' font-size='17' fill='white' text-anchor='middle'>It</text></svg>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <script src="lib/marked.min.js" defer></script>
     <script src="lib/purify.min.js" defer></script>
     <script src="data/plan.js" defer></script>
+    <script src="data/images.js" defer></script>
     <script src="data/manifest.js" defer></script>
     <script src="app.js" defer></script>
 </head>
 <body>
     <header class="topbar">
-        <div class="brand">
-            <span class="flag"><i></i><i></i><i></i></span>
-            <span class="brand-name">Italiano</span>
-        </div>
-        <div class="top-stats">
-            <span title="Day streak">🔥 <b id="statStreak">0</b></span>
-            <span title="Words learned">📚 <b id="statWords">0</b></span>
-            <span title="Reviews due" class="due-pill">⏰ <b id="statDue">0</b></span>
+        <div class="topbar-inner">
+            <button class="brand" data-view="today" aria-label="Today">
+                <span class="logo">It</span>
+                <span class="brand-name">Italiano</span>
+            </button>
+            <nav class="tabs" id="tabs">
+                <button data-view="today" class="active"><span class="ico" data-icon="calendar"></span><span>Today</span></button>
+                <button data-view="review"><span class="ico" data-icon="repeat"></span><span>Review</span><b class="tab-badge" id="tabDue" hidden></b></button>
+                <button data-view="drills"><span class="ico" data-icon="pen"></span><span>Drills</span></button>
+                <button data-view="words"><span class="ico" data-icon="layers"></span><span>Words</span></button>
+                <button data-view="plan"><span class="ico" data-icon="map"></span><span>Plan</span></button>
+                <button data-view="settings" class="tab-settings"><span class="ico" data-icon="sliders"></span><span>Settings</span></button>
+            </nav>
+            <div class="top-stats">
+                <span class="stat" title="Day streak"><span class="ico" data-icon="flame"></span><b id="statStreak">0</b></span>
+                <span class="stat" title="Words learned"><span class="ico" data-icon="book"></span><b id="statWords">0</b></span>
+                <span class="stat due-pill" title="Reviews due"><span class="ico" data-icon="clock"></span><b id="statDue">0</b></span>
+            </div>
         </div>
     </header>
-
-    <nav class="tabs" id="tabs">
-        <button data-view="today" class="active">📅 <span>Today</span></button>
-        <button data-view="review">🔁 <span>Review</span></button>
-        <button data-view="drills">✍️ <span>Drills</span></button>
-        <button data-view="words">📚 <span>Words</span></button>
-        <button data-view="plan">🗺️ <span>Plan</span></button>
-        <button data-view="settings">⚙️ <span>Settings</span></button>
-    </nav>
 
     <main id="view" class="view"></main>
 

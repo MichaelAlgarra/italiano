@@ -9,6 +9,8 @@ A static, date-driven Italian study app. It follows a 96-week beginner → C1 pl
 
 Progress is stored in `localStorage` on each device. Use Settings → Export / Import to move it between devices. Audio uses the browser's built-in Italian voice (Web Speech API).
 
+Photos in `images/` are from Wikimedia Commons (CC BY-SA / CC0); authors and licenses are listed in `data/images.js` and shown in Settings → Credits.
+
 ## Adding content
 
 Each detailed week is a file `data/week-XX.js` (see `data/week-01.js` for the format). Add the week number to `data/manifest.js`. Weeks without a file still show their topic from `data/plan.js`.
