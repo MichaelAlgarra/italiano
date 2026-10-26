@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="theme-color" content="#0b6e4f">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>Italiano · Daily Study</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'><rect width='1' height='2' fill='%23009246'/><rect x='1' width='1' height='2' fill='%23fff'/><rect x='2' width='1' height='2' fill='%23ce2b37'/></svg>">
+    <link rel="stylesheet" href="style.css">
+    <script src="lib/marked.min.js" defer></script>
+    <script src="lib/purify.min.js" defer></script>
+    <script src="data/plan.js" defer></script>
+    <script src="data/manifest.js" defer></script>
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <header class="topbar">
+        <div class="brand">
+            <span class="flag"><i></i><i></i><i></i></span>
+            <span class="brand-name">Italiano</span>
+        </div>
+        <div class="top-stats">
+            <span title="Day streak">🔥 <b id="statStreak">0</b></span>
+            <span title="Words learned">📚 <b id="statWords">0</b></span>
+            <span title="Reviews due" class="due-pill">⏰ <b id="statDue">0</b></span>
+        </div>
+    </header>
+
+    <nav class="tabs" id="tabs">
+        <button data-view="today" class="active">📅 <span>Today</span></button>
+        <button data-view="review">🔁 <span>Review</span></button>
+        <button data-view="drills">✍️ <span>Drills</span></button>
+        <button data-view="words">📚 <span>Words</span></button>
+        <button data-view="plan">🗺️ <span>Plan</span></button>
+        <button data-view="settings">⚙️ <span>Settings</span></button>
+    </nav>
+
+    <main id="view" class="view"></main>
+
+    <template id="accentBar">
+        <div class="accent-bar">
+            <button type="button" tabindex="-1">à</button><button type="button" tabindex="-1">è</button><button type="button" tabindex="-1">é</button><button type="button" tabindex="-1">ì</button><button type="button" tabindex="-1">ò</button><button type="button" tabindex="-1">ù</button>
+        </div>
+    </template>
+</body>
+</html>
